@@ -154,10 +154,10 @@ START_TEST(test_2d_area)
 	
 	a.x = 0.0;
 	a.y = 0.0;
-	b.x = 1.0;
-	b.y = 0.0;
+	b.x = 0.0;
+	b.y = 1.0;
 	c.x = 1.0;
-	c.y = 1.0;
+	c.y = 0.0;
 	
 	ck_assert(coord_2d_area_triangle(&a, &b, &c) == 0.5);
 	
